@@ -12,19 +12,38 @@
   --color_background: var(--palette_color_lighter);
   --color_accent: var(--palette_color_pink-dark);
   
+  --font_color_title: var(--palette_color_pink);
   --font_color_heading: var(--palette_color_grey);
   --font_color_caption: var(--palette_color_grey);
   --font_color_body: var(--palette_color_grey);
+  --font_color_link: var(--palette_color_grey);
 
+  --button: var(--palette_color_grey_40);
+
+  --page-image: url(../images/cover-image-light.png);
+}
+
+.page.theme_light .header__rec {
+  display: none;
 }
 
 @media (prefers-color-scheme: light) {
   :root {
     --color_background: var(--palette_color_lighter);
     --color_accent: var(--palette_color_pink-dark);
-  
+    
+    --font_color_title: var(--palette_color_pink);
     --font_color_heading: var(--palette_color_grey);
     --font_color_caption: var(--palette_color_grey);
     --font_color_body: var(--palette_color_grey);
+    --font_color_link: var(--palette_color_grey);
+
+    --button: var(--palette_color_grey_40);
+
+    --page-image: url(../images/cover-image-light.png);
+  }
+
+  .header__rec {
+    display: none;
   }
 }

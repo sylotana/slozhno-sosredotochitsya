@@ -12,18 +12,38 @@
   --color_background: var(--palette_color_dark, #000028);
   --color_accent: var(--palette_color_purple, #ff0070);
   
+  --font_color_title: var(--palette_color_violette, #db00ff);
   --font_color_heading: var(--palette_color_purple, #ff0070);
   --font_color_caption: var(--palette_color_dark, #000028);
   --font_color_body: var(--palette_color_light, #f1b2ce);
+  --font_color_link: var(--palette_color_purple);
+  
+  --button: var(--palette_color_purple_40);
+
+  --page-image: url(../images/cover-image-dark.png);
+}
+
+.page.theme_dark .header__rec {
+  display: flex;
 }
 
 @media (prefers-color-scheme: dark) {
   :root {
     --color_background: var(--palette_color_dark, #000028);
     --color_accent: var(--palette_color_purple, #ff0070);
-  
+    
+    --font_color_title: var(--palette_color_violette, #db00ff);
     --font_color_heading: var(--palette_color_purple, #ff0070);
     --font_color_caption: var(--palette_color_dark, #000028);
     --font_color_body: var(--palette_color_light, #f1b2ce);
+    --font_color_link: var(--palette_color_purple);
+
+    --button: var(--palette_color_purple_40);
+
+    --page-image: url(../images/cover-image-dark.png);
+  }
+
+  .header__rec {
+    display: flex;
   }
 }
