@@ -2,7 +2,7 @@
 
 .page {
   /* сохраните в разметке и стилях класс page. На его основе работает скрипт. */
-  font-family: var(--font_name_body, mono);
+  font-family: var(--font_name_body);
   background-color: var(--color_background);
   font-size: var(--font_size_body, 1.125rem);
   font-weight: 500;
@@ -160,7 +160,7 @@
   background-color: transparent;
   border: 1px solid transparent;
   padding-inline: 13px;
-  padding-block: 0;
+  padding-block: 3px;
 }
 
 .header__theme-menu-button_active {
@@ -213,6 +213,10 @@
 .section__list-images {
   display: grid;
   gap: var(--spacing_1x, 0.625rem);
+}
+
+.section__list-images-item {
+  display: flex;
 }
 
 .section__item {
@@ -290,6 +294,7 @@
   }
 
   .section__list-images-item:nth-child(5) {
+    margin-top: 5px;
     grid-column: 2 / 4;
     grid-row: 3;
   }

@@ -18,7 +18,7 @@
 
   /* TYPOGRAPHY */
 
-  --font_name_body: "IBM Plex mono";
+  --font_name_body: "IBM Plex mono", "Courier New", Courier, monospace;
   --font_size_body: 1.125rem;
   --font_size_title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   --font_line_body: 1.3;
