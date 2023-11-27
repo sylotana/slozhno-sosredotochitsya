@@ -3,38 +3,34 @@
   и их переопределение под различные устройства
 */
 :root {
-  
-/* PALETTE */
+  /* PALETTE */
 
   --palette_color_dark: #000028;
   --palette_color_purple: #ff0070;
-  --palette_color_purple_40: rgba(255, 0, 112, 0.40); 
+  --palette_color_purple_40: rgba(255, 0, 112, 0.4);
   --palette_color_violette: #db00ff;
   --palette_color_pink-dark: #ff8dcb;
   --palette_color_pink: #ffc2e6;
   --palette_color_grey: #353430;
-  --palette_color_grey_40: rgba(50, 49, 45, 0.40);
+  --palette_color_grey_40: rgba(50, 49, 45, 0.4);
   --palette_color_light: #f1b2ce;
   --palette_color_lighter: #fff1f7;
 
+  /* TYPOGRAPHY */
 
-/* TYPOGRAPHY */
-
-  --font_name_body: 'IBM Plex mono';
+  --font_name_body: "IBM Plex mono";
   --font_size_body: 1.125rem;
   --font_size_title: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
-  --font_line_body:  1.3;
-  
+  --font_line_body: 1.3;
 
-/* SPACING */
+  /* SPACING */
 
   --spacing_1x: 0.625rem;
   --spacing_2x: 1.25rem;
-  --spacing_4x: 2.5rem; 
+  --spacing_4x: 2.5rem;
   --spacing_5x: 3.125rem;
   --spacing_6x: 3.75rem;
   --spacing_8x: 5rem;
-
 
   --container: var(--spacing_1x, 0.625rem);
 
