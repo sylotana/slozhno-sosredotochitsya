@@ -247,7 +247,7 @@
   }
 
   .section {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: minmax(229px, 1fr) repeat(2, 1fr);
   }
 
   .section__inner {
